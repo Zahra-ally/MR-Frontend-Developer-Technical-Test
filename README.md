@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Clothing Site with Cart Functionality
+![Screen Shot 2023-07-28 at 8 57 01 PM](https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test/assets/91510851/7cd57c42-e2a1-4cf5-94e4-42f3bc98b9f0)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Description](#description)
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [API](#api)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Description
+A simple product details section for a clothing site with cart functionality to store a customer's product selections. The app is built using React, JavaScript, HTML, and CSS. Users can view product information, select product sizes, and add items to the cart.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
+App deployed on https://main--statuesque-choux-d2cba0.netlify.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- Display product details, including title, description, price, and available sizes.
+- Allow users to select a size and add products to the cart.
+- Display a mini-cart with the selected products and quantities.
+- Hover effect on the "Add to Cart" button with color transition.
+- Responsive design for different screen sizes.
 
-### `npm test`
+## Technologies Used
+- React
+- JavaScript
+- HTML
+- CSS
+- Axios (for API requests)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
+1. Clone the repository: `git clone https://github.com/Zahra-ally/MR_tech_test.git`
+2. Navigate to the project directory: `cd MR_tech_test`
+3. Install dependencies: `npm install`
 
-### `npm run build`
+## Usage
+1. Run the app locally: `npm start`
+2. Open your browser and visit: `http://localhost:3000`
+## Testing
+The Clothing Site with Cart Functionality includes automated tests to ensure the application functions as expected. These tests are written using [Cypress](https://www.cypress.io/), a powerful end-to-end testing framework for web applications.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Running Tests
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the Cypress tests locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Ensure that your React app is running at `http://localhost:3000`. If not, start the development server by running `npm start`.
 
-### `npm run eject`
+2. Open a new terminal and navigate to your project's root directory.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Run the Cypress Test Runner with the following command:
+   ```bash
+   npm run cypress:open
+   
+![Screen Shot 2023-07-28 at 8 57 01 PM](https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test/assets/91510851/fe5cadaf-e9fa-4f5b-88c9-92dac229e859)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
+Deployed using Netlify. Avalible on https://main--curious-churros-11b5c8.netlify.app/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## API
+The product information is consumed from the Product API using an HTTP GET request:
+API Endpoint: `https://3sb655pz3a.execute-api.ap-southeast-2.amazonaws.com/live/product`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The API response should be in the following format:
+```json
+{
+  "id": 1,
+  "title": "Classic Tee",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ...",
+  "price": 75.0,
+  "imageURL": "https://mrdevelopertestassets.s3.ap-southeast-2.amazonaws.com/classic-tee.jpg",
+  "sizeOptions": [
+    {"id": 1, "label": "S"},
+    {"id": 2, "label": "M"},
+    {"id": 3, "label": "L"}
+  ]
+}
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
