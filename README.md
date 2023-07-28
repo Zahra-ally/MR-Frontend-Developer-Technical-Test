@@ -1,5 +1,5 @@
 # Clothing Site with Cart Functionality
-![Screen Shot 2023-07-28 at 8 57 01 PM](https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test/assets/91510851/7cd57c42-e2a1-4cf5-94e4-42f3bc98b9f0)
+![Screen Shot 2023-07-28 at 8 57 41 PM](https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test/assets/91510851/f4168dd5-675e-4e07-9417-ffdbbae4da57)
 
 ## Table of Contents
 - [Description](#description)
