@@ -42,8 +42,8 @@ https://drive.google.com/file/d/1RAYWMt1UtfTWitKaH099-B-8Hj_7KjTr/view?usp=shari
 - Axios (for API requests)
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/Zahra-ally/MR_tech_test.git`
-2. Navigate to the project directory: `cd MR_tech_test`
+1. Clone the repository: `https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test.git`
+2. Navigate to the project directory: `cd MR-Frontend-Developer-Technical-Test`
 3. Install dependencies: `npm install`
 
 ## Usage
