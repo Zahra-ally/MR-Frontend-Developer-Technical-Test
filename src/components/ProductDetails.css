@@ -1,4 +1,3 @@
-/* CSS */
 .product-details-container {
     display: flex;
     max-width: 1000px;
@@ -91,8 +90,6 @@
     background-color: #003145;
     transform: translateY(0);
   }
-
-  /* ... Existing styles ... */
 
 /* Adjust styles for smaller screens (e.g., tablets and mobile devices) */
 @media (max-width: 767px) {
