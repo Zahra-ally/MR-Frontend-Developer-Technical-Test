@@ -1,6 +1,9 @@
 # Clothing Site with Cart Functionality
 ![Screen Shot 2023-07-28 at 8 57 41 PM](https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test/assets/91510851/f4168dd5-675e-4e07-9417-ffdbbae4da57)
 
+Demo: 
+[Screen Recording 2023-07-28 at 8.58.48 PM](https://drive.google.com/file/d/1JFE8-s9w3s3XcPOsySO-096gdQ4i216w/view?usp=sharing)
+
 ## Table of Contents
 - [Description](#description)
 - [Demo](#demo)
