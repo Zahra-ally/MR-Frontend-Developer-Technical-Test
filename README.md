@@ -1,9 +1,6 @@
 # Clothing Site with Cart Functionality
 ![Screen Shot 2023-07-28 at 8 57 41 PM](https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test/assets/91510851/f4168dd5-675e-4e07-9417-ffdbbae4da57)
 
-Demo: 
-[Screen Recording 2023-07-28 at 8.58.48 PM](https://drive.google.com/file/d/1JFE8-s9w3s3XcPOsySO-096gdQ4i216w/view?usp=sharing)
-
 ## Table of Contents
 - [Description](#description)
 - [Demo](#demo)
@@ -21,7 +18,7 @@ Demo:
 A simple product details section for a clothing site with cart functionality to store a customer's product selections. The app is built using React, JavaScript, HTML, and CSS. Users can view product information, select product sizes, and add items to the cart.
 
 ## Demo
-App deployed on https://main--statuesque-choux-d2cba0.netlify.app/
+[Screen Recording 2023-07-28 at 8.58.48 PM](https://drive.google.com/file/d/1JFE8-s9w3s3XcPOsySO-096gdQ4i216w/view?usp=sharing)
 
 ## Features
 - Display product details, including title, description, price, and available sizes.
