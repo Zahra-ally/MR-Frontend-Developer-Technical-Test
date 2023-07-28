@@ -18,7 +18,14 @@
 A simple product details section for a clothing site with cart functionality to store a customer's product selections. The app is built using React, JavaScript, HTML, and CSS. Users can view product information, select product sizes, and add items to the cart.
 
 ## Demo
+### Web View
 [Screen Recording 2023-07-28 at 8.58.48 PM](https://drive.google.com/file/d/1JFE8-s9w3s3XcPOsySO-096gdQ4i216w/view?usp=sharing)
+
+### Tablet View
+https://drive.google.com/file/d/17MByMC0OG9D73vc_kuSEBQL10UIzSW8b/view?usp=sharing
+
+### Mobile View
+https://drive.google.com/file/d/1RAYWMt1UtfTWitKaH099-B-8Hj_7KjTr/view?usp=sharing
 
 ## Features
 - Display product details, including title, description, price, and available sizes.
