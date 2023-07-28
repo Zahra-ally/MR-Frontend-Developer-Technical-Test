@@ -1,5 +1,5 @@
 # Clothing Site with Cart Functionality
-![Screen Shot 2023-07-28 at 8 57 41 PM](https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test/assets/91510851/f4168dd5-675e-4e07-9417-ffdbbae4da57)
+![Uploading Screen Shot 2023-07-28 at 8.57.41 PM.png…]()
 
 ## Table of Contents
 - [Description](#description)
@@ -64,7 +64,7 @@ To run the Cypress tests locally, follow these steps:
    ```bash
    npm run cypress:open
    
-![Screen Shot 2023-07-28 at 8 57 01 PM](https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test/assets/91510851/fe5cadaf-e9fa-4f5b-88c9-92dac229e859)
+![Screen Shot 2023-07-28 at 8 57 01 PM](https://github.com/Zahra-ally/MR-Frontend-Developer-Technical-Test/assets/91510851/9299a495-b22a-4af8-ad4e-e87cd678b753)
 
 ## Deployment
 Deployed using Netlify. Avalible on https://main--curious-churros-11b5c8.netlify.app/
